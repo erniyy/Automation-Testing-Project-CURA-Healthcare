@@ -1,16 +1,32 @@
+ QA Automation Project: CURA Healthcare Appointment
 Project Scenario:
-Visit https://katalon-demo-cura.herokuapp.com/
-Login
-Make an appointment
-Facility - Seoul CURA Healthcare Center
-Check on "Apply for hospital readmission"
-Healthcare Program - Medicaid
-Select a visiting date
-Add a comment
-Book an Appointment
-Verify the appointment
+Automated testing scenario using Selenium for the web app: CURA Healthcare
 
-Technology Used:
-Selenium
-Java 
-Intelej Idea
+🔍 Test Flow:
+Visit the CURA Healthcare website
+
+Log in to the application
+
+Make an appointment with the following details:
+
+Facility: Seoul CURA Healthcare Center
+
+Apply for hospital readmission: Checked
+
+Healthcare Program: Medicaid
+
+Visit Date: Selected
+
+Comment: Added
+
+Book the appointment
+
+Verify that the appointment details are successfully submitted
+
+💻 Technology Used:
+Selenium WebDriver
+
+Java
+
+IntelliJ IDEA
+
